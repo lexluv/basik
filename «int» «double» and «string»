@@ -1,0 +1,21 @@
+public class DataTypesExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        int integer = scanner.nextInt();
+
+        System.out.print("Enter a decimal number: ");
+        double decimal = scanner.nextDouble();
+
+        System.out.print("Enter a text: ");
+        String text = scanner.nextLine();
+
+        System.out.println("You entered: ");
+        System.out.println("Integer: " + integer);
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Text: " + text);
+
+        scanner.close();
+    }
+}
